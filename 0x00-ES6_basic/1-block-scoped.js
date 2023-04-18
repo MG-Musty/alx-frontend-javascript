@@ -1,3 +1,5 @@
+  var task = false;
+  var task2 = true;
 
 export default function taskBlock(trueOrFalse) {
   var task = false;
@@ -8,5 +10,5 @@ export default function taskBlock(trueOrFalse) {
     var task2 = true;
   }
 
-  return [task, task2];
+  return (task, task2);
 }
