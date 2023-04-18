@@ -1,5 +1,3 @@
-var task = false;
-var task2 = true;
 
 export default function taskBlock(trueOrFalse) {
   var task = false;
