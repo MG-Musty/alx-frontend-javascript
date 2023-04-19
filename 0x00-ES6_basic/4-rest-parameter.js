@@ -1,6 +1,8 @@
-export default function returnHowManyArguments("one", "two", 3, "4th") {
-    return one + two + 3 + 4th;
+export default function returnHowManyArguments(...args) {
+  let sum = 0;
+        
+  for(let i of input){
+      sum+=i;
+  }
+  return sum;
 }
-console.log(returnHowManyArguments("one"));
-console.log(returnHowManyArguments("one", "two", 3, "4th"));
-returnHowManyArguments("one", "two", 3, "4th");
