@@ -7,10 +7,10 @@ export default function getFullBudgetObject(income, gdp, capita) {
 	gdp: '50',
 	capita: '10',
 
-    getIncomeInDollars: function (income) {
+    getIncomeInDollars(income) {
       return `$${income}`;
     },
-    getIncomeInEuros: function (income) {
+    getIncomeInEuros(income) {
       return `${income} euros`;
     },
   };
