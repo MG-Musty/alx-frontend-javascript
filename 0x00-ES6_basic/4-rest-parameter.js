@@ -1,3 +1,3 @@
-export default function returnHowManyArguments(x y) {
-  return x + y;
+export default function returnHowManyArguments() {
+  const returnHowManyArguments = ("Hello", "Holberton" 2023);
 }
