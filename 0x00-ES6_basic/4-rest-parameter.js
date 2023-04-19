@@ -1,8 +1,7 @@
-export default function returnHowManyArguments(...args) {
-  let sum = 0;
-        
-  for(let i of input) {
-    sum += i;
+export default function returnHowManyArguments(...theArgs) {
+  let total = 0;
+  for (const arg of theArgs) {
+    total += arg;
   }
-  return sum;
+  return total;
 }
