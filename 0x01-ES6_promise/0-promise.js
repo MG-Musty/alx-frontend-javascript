@@ -4,5 +4,5 @@ function getResponseFromAPI(){
   resolved('resolved');
     }, 2000);
   });
-
-  async function getResponseFromAPI()
+}
+export default getResponseFromAPI;
